@@ -1,0 +1,21 @@
+{
+  "fitbit": {
+    "appUUID": "12d24c3b-312d-4e8d-9ae9-a24cc2aafa1e",
+    "appType": "clockface",
+    "appDisplayName": "Simple Glance V4",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_internet",
+      "run_background"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Simple Glance V4"
+      }
+    }
+  }
+}

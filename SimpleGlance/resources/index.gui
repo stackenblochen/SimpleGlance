@@ -1,0 +1,58 @@
+<svg id="app">
+  <use href="#scrollview">
+    <use href="#scrollview-item">
+      
+      <text id="bg" class="medium-number" x="3%" y="20%" text-anchor="start" ></text> 
+      
+      <image id="direction-image" class="image-direction" x="$+1%" y="5%"/>
+      <text id="delta" class="medium-copy" x="$+2%" y="20%" text-anchor="start"></text>
+      <text id="divider-minutes" class="medium-copy" x="$+1%" y="20%" text-anchor="start"></text>
+      <text id="minutes" class="medium-copy" x="$+1%" y="20%"  text-anchor="start"></text>
+      
+       <use id="requestBtn" href="#push-button" x="0%" y="0%" height="60" width="100%" fill="black" opacity="0">
+        <set href="#text" attributeName="text-buffer" to=" " />
+        <set href="#text" attributeName="fill" to="fb-peach" />
+      </use>
+      
+      <text id="time" x="3%" y="56%" text-anchor="start">00:00</text>
+
+      <text id="iob" class="medium-number" x="3%" y="81%" text-anchor="start"></text>
+      <text id="iob-unit" class="medium-copy" x="$+1%" y="81%" text-anchor="start"></text>
+      <text id="divider-cob" class="divider-cob" x="$+1%" y="81%" text-anchor="start"></text>
+      <text id="cob" class="medium-number" x="$+1%" y="81%" text-anchor="start"></text>
+      <text id="cob-unit" class="medium-copy" x="$+1%" y="81%" text-anchor="start"></text>
+      
+      <text id="fullDate" class="medium-copy" x="3%" y="97%" text-anchor="start"></text> 
+      <text id="battery" class="medium-copy" x="97%" y="97%" text-anchor="end"></text> 
+
+      <!-- Alert -->
+      <svg id="popup" display="none" >
+        <!-- Black background -->
+        <rect class="full-size" fill="fb-black" />
+
+        <!-- Title and text -->
+        <use href="#mixed-text-center-mid" class="dialog-mixed-text" fill="fb-white" id="alertHeader">
+          <set href="#top-padding" attributeName="display" to="none" />
+          <set href="#header/text" attributeName="text-buffer"  to="---" />
+          <set href="#header/text" attributeName="fill" to="fb-red"/>
+          <set href="#copy/text" attributeName="text-buffer" to="Check BG!" />
+          <set href="#bottom-padding" attributeName="display" to="none" />
+        </use>
+
+        <!-- mute button -->
+        <use id="btn-mute" href="#square-button" y="70%" fill="fb-red">
+           <set href="#text" attributeName="text-buffer" to="Mute" /> <!--Change this to be 15 when you add the 15 min mute code in -->
+          <set href="#text" attributeName="text-anchor" to="middle" />
+        </use>
+      </svg>
+      
+    </use>
+    
+<!--     <use href="#scrollview-item">
+
+     <line id="target-range-top" x1="7%" x2="93%" y1="55" y2="55" fill="#a27b27" stroke-width="1" />
+     <line  id="target-range-bottom" x1="7%" x2="93%" y1="130" y2="130" fill="#a27b27" stroke-width="1" />
+           
+    </use> -->
+  </use>
+</svg>

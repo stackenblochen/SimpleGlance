@@ -1,0 +1,40 @@
+#app {
+  width:100%;
+  height:100%;
+}
+
+#time {
+  font-family: SevilleSharp-Book;
+  fill: white;
+  font-size:120;
+}
+
+.bg {
+  fill: fb-light-gray;
+}
+
+.divider-cob {
+   font-family: SevilleSharp-Regular;
+  text-length: 60;
+  font-size:64;
+  fill: fb-light-gray;
+}
+
+.medium-number {
+  font-family: SevilleSharp-Regular;
+  fill: white;
+  text-length: 60;
+  font-size:64;
+}
+
+.medium-copy { 
+  font-family: SevilleSharp-Bold;
+  fill: fb-light-gray;
+  font-size:30;
+  text-length: 60;
+}
+
+.image-direction {
+   width:48;
+   height:48;
+}
